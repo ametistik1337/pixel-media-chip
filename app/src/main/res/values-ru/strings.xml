@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pixel Media Chip</string>
+    <string name="xposed_description">Добавляет медиачип в статус-бар Pixel слева от камеры с жестовым управлением и развернутым плеером.</string>
+
+    <!-- Layout & Modes -->
+    <string name="section_layout_modes">Макет и режимы</string>
+    <string name="section_display_mode">Режим отображения</string>
+    <string name="mode_two_lines">Две строки</string>
+    <string name="mode_one_line">Одна строка</string>
+    <string name="mode_icon_only">Иконка</string>
+    <string name="pref_show_artist">Показывать исполнителя</string>
+    <string name="pref_show_artist_desc">Вторая строка в раскрытом чипсе</string>
+    <string name="pref_marquee">Бегущая строка</string>
+    <string name="pref_marquee_desc">Плавный скролл длинных названий</string>
+    <string name="pref_monet_tint">Monet-тонирование</string>
+    <string name="pref_monet_tint_desc">Адаптировать цвет плашки под обложку трека</string>
+    <string name="pref_swipe_gestures">Свайп-жесты</string>
+    <string name="pref_swipe_gestures_desc">Свайп влево/вправо для треков, тап — пауза, удержание — окно</string>
+    <string name="pref_haptic">Тактильный отклик</string>
+    <string name="pref_haptic_desc">Вибрация при свайпах, тапах и переключениях</string>
+
+    <!-- Dimensions & Geometry -->
+    <string name="section_dimensions">Габариты и геометрия</string>
+    <string name="section_dimensions_subtitle">Ширина, радиус скруглений и посадка у камеры</string>
+    <string name="slider_max_width">Макс. ширина плашки</string>
+    <string name="slider_text_width">Макс. ширина текста</string>
+    <string name="slider_corner_radius">Радиус скругления</string>
+    <string name="slider_title_size">Размер шрифта трека</string>
+    <string name="slider_artist_size">Размер шрифта автора</string>
+    <string name="pref_eat_camera">Заезжать за камеру</string>
+    <string name="pref_eat_camera_desc">Эффект Dynamic Island с примыканием к объективу</string>
+    <string name="slider_camera_depth">Глубина заезда за камеру</string>
+
+    <!-- Audio Visualizer -->
+    <string name="section_visualizer">Аудиовизуализатор</string>
+    <string name="section_visualizer_subtitle">Анимация спектра при воспроизведении музыки</string>
+    <string name="pref_vis_chip">Эквалайзер в чипсе</string>
+    <string name="pref_vis_chip_desc">Анимированные полосы внутри плашки в статус-баре</string>
+    <string name="pref_vis_card">Эквалайзер в карточке</string>
+    <string name="pref_vis_card_desc">Аудиоспектр в развернутом окне плеера</string>
+    <string name="slider_vis_sensitivity">Чувствительность спектра</string>
+
+    <!-- Screen Recording & Calls -->
+    <string name="section_squish">Запись экрана и звонки</string>
+    <string name="section_squish_subtitle">Поведение чипса при появлении системных значков</string>
+    <string name="squish_mode_title">При системных значках</string>
+    <string name="squish_to_icon">В иконку</string>
+    <string name="squish_hide">Скрыть</string>
+    <string name="squish_disabled">Игнорировать</string>
+
+    <!-- Live Preview & Presets -->
+    <string name="preview_title">Превью статус-бара</string>
+    <string name="preview_squished">Сжато</string>
+    <string name="preview_squish">Сжатие</string>
+    <string name="preview_fast_presets">Быстрые пресеты</string>
+    <string name="preset_default">По умолчанию</string>
+    <string name="preset_island">Остров</string>
+    <string name="preset_compact">Компактный</string>
+    <string name="preset_expanded">Расширенный</string>
+
+    <!-- Diagnostics & System Actions -->
+    <string name="section_diagnostics">Системные действия и диагностика</string>
+    <string name="section_diagnostics_subtitle">Телеметрия состояния и системные переключатели</string>
+    <string name="diag_root">Root доступ</string>
+    <string name="diag_root_desc">Требуется для быстрого перезапуска SystemUI</string>
+    <string name="diag_record_audio">Запись аудио</string>
+    <string name="diag_record_audio_desc">RECORD_AUDIO для анализа спектра эквалайзера</string>
+    <string name="diag_overlay">Отображение поверх окон</string>
+    <string name="diag_overlay_desc">SYSTEM_ALERT_WINDOW для развернутого окна плеера</string>
+    <string name="status_granted">Предоставлено</string>
+    <string name="status_available">Доступен</string>
+    <string name="status_denied">Отсутствует</string>
+    <string name="status_not_detected">Не обнаружен</string>
+    <string name="action_restart_systemui">Перезапуск SystemUI</string>
+    <string name="action_reset_settings">Сброс настроек</string>
+
+    <!-- Dialogs & Buttons -->
+    <string name="dialog_restart_title">Перезапустить SystemUI?</string>
+    <string name="dialog_restart_message">Требуются root-права. SystemUI будет принудительно перезапущен для применения настроек строки состояния. Экран кратковременно моргнет.</string>
+    <string name="dialog_restart_confirm">Перезапустить</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_reset_title">Сбросить все параметры?</string>
+    <string name="dialog_reset_message">Все режимы отображения, габариты плашки, параметры эквалайзера и выреза камеры будут сброшены к значениям по умолчанию.</string>
+    <string name="dialog_reset_confirm">Сбросить</string>
+    <string name="slider_reset_default">Сбросить по умолчанию</string>
+</resources>

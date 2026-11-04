@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <!-- Minimalist dark circular backdrop -->
+  <rect width="108" height="108" rx="28" fill="#111215"/>
+
+  <!-- Status bar media pill container -->
+  <rect x="18" y="38" width="72" height="32" rx="16" fill="#1C1E23" stroke="#2D3139" stroke-width="1.2"/>
+
+  <!-- Left: Minimalist circular media badge with play glyph -->
+  <circle cx="34" cy="54" r="9" fill="#8AB4F8"/>
+  <polygon points="32.5,50 37.5,54 32.5,58" fill="#111215"/>
+
+  <!-- Right: 3-band minimalist equalizer bars -->
+  <rect x="52" y="49" width="3" height="10" rx="1.5" fill="#E2EDFC"/>
+  <rect x="58" y="44" width="3" height="20" rx="1.5" fill="#8AB4F8"/>
+  <rect x="64" y="47" width="3" height="14" rx="1.5" fill="#A8C7FA"/>
+  <rect x="70" y="51" width="3" height="6" rx="1.5" fill="#6997E8"/>
+</svg>

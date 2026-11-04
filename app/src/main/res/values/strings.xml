@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pixel Media Chip</string>
+    <string name="xposed_description">Adds a media player chip into Pixel Status Bar left of camera with gesture controls and expanded popup.</string>
+
+    <!-- Layout & Modes -->
+    <string name="section_layout_modes">Layout &amp; Modes</string>
+    <string name="section_display_mode">Display Mode</string>
+    <string name="mode_two_lines">Two lines</string>
+    <string name="mode_one_line">One line</string>
+    <string name="mode_icon_only">Icon only</string>
+    <string name="pref_show_artist">Show Artist</string>
+    <string name="pref_show_artist_desc">Second line in expanded chip</string>
+    <string name="pref_marquee">Single-line Marquee</string>
+    <string name="pref_marquee_desc">Scroll long track titles smoothly</string>
+    <string name="pref_monet_tint">Monet Dynamic Tint</string>
+    <string name="pref_monet_tint_desc">Tint chip background with album art color palette</string>
+    <string name="pref_swipe_gestures">Swipe Gestures</string>
+    <string name="pref_swipe_gestures_desc">Swipe left/right to skip, tap to pause, hold to expand</string>
+    <string name="pref_haptic">Haptic Feedback</string>
+    <string name="pref_haptic_desc">Subtle vibrations on gestures and touches</string>
+
+    <!-- Dimensions & Geometry -->
+    <string name="section_dimensions">Dimensions &amp; Geometry</string>
+    <string name="section_dimensions_subtitle">Size, corner radius, and camera cutout behavior</string>
+    <string name="slider_max_width">Max Chip Width</string>
+    <string name="slider_text_width">Max Text Width</string>
+    <string name="slider_corner_radius">Corner Radius</string>
+    <string name="slider_title_size">Title Font Size</string>
+    <string name="slider_artist_size">Artist Font Size</string>
+    <string name="pref_eat_camera">Eat Camera Cutout</string>
+    <string name="pref_eat_camera_desc">Fluid Dynamic Island effect around the front lens</string>
+    <string name="slider_camera_depth">Camera Absorption Depth</string>
+
+    <!-- Audio Visualizer -->
+    <string name="section_visualizer">Audio Visualizer</string>
+    <string name="section_visualizer_subtitle">Spectrum animation during audio playback</string>
+    <string name="pref_vis_chip">Equalizer in Chip</string>
+    <string name="pref_vis_chip_desc">Animated bars inside status bar pill</string>
+    <string name="pref_vis_card">Equalizer in Card</string>
+    <string name="pref_vis_card_desc">Audio spectrum in expanded media window</string>
+    <string name="slider_vis_sensitivity">Spectrum Sensitivity</string>
+
+    <!-- Screen Recording & Calls -->
+    <string name="section_squish">Screen Recording &amp; Calls</string>
+    <string name="section_squish_subtitle">Chip behavior when system status icons appear</string>
+    <string name="squish_mode_title">On System Event</string>
+    <string name="squish_to_icon">To icon</string>
+    <string name="squish_hide">Hide</string>
+    <string name="squish_disabled">Ignore</string>
+
+    <!-- Live Preview & Presets -->
+    <string name="preview_title">Status Bar Preview</string>
+    <string name="preview_squished">Compressed</string>
+    <string name="preview_squish">Compress</string>
+    <string name="preview_fast_presets">Quick Presets</string>
+    <string name="preset_default">Default</string>
+    <string name="preset_island">Island</string>
+    <string name="preset_compact">Compact</string>
+    <string name="preset_expanded">Expanded</string>
+
+    <!-- Diagnostics & System Actions -->
+    <string name="section_diagnostics">System Actions &amp; Diagnostics</string>
+    <string name="section_diagnostics_subtitle">Status telemetry and system controls</string>
+    <string name="diag_root">Root Access</string>
+    <string name="diag_root_desc">Required for fast SystemUI restart</string>
+    <string name="diag_record_audio">Record Audio</string>
+    <string name="diag_record_audio_desc">RECORD_AUDIO for equalizer FFT spectrum analysis</string>
+    <string name="diag_overlay">Display Over Other Apps</string>
+    <string name="diag_overlay_desc">SYSTEM_ALERT_WINDOW for expanded media popup</string>
+    <string name="status_granted">Granted</string>
+    <string name="status_available">Available</string>
+    <string name="status_denied">Missing</string>
+    <string name="status_not_detected">Not detected</string>
+    <string name="action_restart_systemui">Restart SystemUI</string>
+    <string name="action_reset_settings">Reset Settings</string>
+
+    <!-- Dialogs & Buttons -->
+    <string name="dialog_restart_title">Restart SystemUI?</string>
+    <string name="dialog_restart_message">Root access is required. SystemUI will be forcefully restarted to apply status bar changes. The screen will flicker briefly.</string>
+    <string name="dialog_restart_confirm">Restart</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_reset_title">Reset all settings?</string>
+    <string name="dialog_reset_message">All layout modes, chip dimensions, equalizer settings, and camera cutout margins will be restored to defaults.</string>
+    <string name="dialog_reset_confirm">Reset</string>
+    <string name="slider_reset_default">Reset to default</string>
+</resources>
